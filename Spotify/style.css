@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    background-color: black;
+
+}
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+nav{
+font-family: 'Oswald';
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    width: 100px;
+    padding: 0 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+nav ul li{
+    padding: 10px;
+    text-align: right;
+}
+
+.botton{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.container{
+    min-height: 76vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px  auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bc2.jpg);
+}
+
+#myProgessbar{
+    width: 60vw;
+    cursor: pointer;
+}
+ 
+.songItem{
+display: flex;
+height: 50px;
+background-color: aliceblue;
+width: 80px;
+margin: 80px -300px ;
+
+
+
+ }
+
+ 
+
+
